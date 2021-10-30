@@ -27,6 +27,7 @@ fun CarDetailScreen(
     Box(modifier = Modifier.fillMaxSize()){
         state.car?.let{ car ->
             LazyColumn (
+                //tes
 //                modifier = Modifier.fillMaxSize(),
 //                contentPadding = PaddingValues(20.dp)
             ){
