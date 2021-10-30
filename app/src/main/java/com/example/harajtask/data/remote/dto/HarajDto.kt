@@ -15,6 +15,7 @@ data class HarajDto(
 fun HarajDto.toHaraj():Haraj{
     return Haraj(
         city = city,
+        commentCount = commentCount,
         date = date,
         thumbURL = thumbURL,
         title = title,
